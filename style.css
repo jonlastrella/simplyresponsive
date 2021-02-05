@@ -1,0 +1,27 @@
+.header{
+    background-color:gray;
+}
+h1{
+    color:black;
+}
+.content{
+    background-color:gray;
+}
+p{
+    color:black;
+}
+@media only screen and (max-width: 480px){
+    p{
+    background-color:blue;
+    }
+}
+@media only screen and (min-width: 481px){
+    p{
+        background-color:red;
+    }
+}
+@media only screen and (min-width:1023px){
+    p{
+        background-color:orange;
+    }
+}
